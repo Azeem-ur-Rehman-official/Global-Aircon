@@ -1,0 +1,26 @@
+.subscription-card {
+  padding: 1vw;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: auto;
+}
+
+.subscription-card h2 {
+  color: #c73e1d;
+}
+
+.subscription-col:last-child .subscription-card h2 {
+  background: -webkit-linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subscription-col .subscription-card button {
+  color: white;
+  background-color: #c73e1d;
+}
+
+.subscription-col:last-child .subscription-card button {
+  background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+}
